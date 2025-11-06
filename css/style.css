@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Style for the main container */
+.main {
+    margin: 20%;
+    width:50%;
+    background-color: grey;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block; /* Helps container wrap its content */
+    text-align: center;
+}
+.quote-container{
+    background-color: rgb(253, 255, 255);
+    height:60px;
+    width:300px;
+    border-radius: 10px;
+    line-height: 60px;
+    margin: 15px auto;
+}
+#quote{
+    display: inline-block;
+
+}
+#btn{
+    height: 30px;
+    width: 70px;
+    background-color: cornflowerblue;
+}
+.fa-heart{
+    color: grey;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+.fav{
+    background-color: lightcoral;
+}
+.icon{
+    color: red;
+}
